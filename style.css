@@ -1,0 +1,63 @@
+body{
+    background:linear-gradient(to right,mediumpurple,steelblue);
+    font-family: Arial;
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+
+}
+#contactForm{
+    background: white;
+    padding: 30px;
+    width: 432px;
+    border-radius: 5px;
+
+}
+h2{
+    text-align: center;
+    color: darkblue;
+}
+p{
+    padding: 10px;
+    color: cornflowerblue;
+}
+fieldset{
+    padding: 50px;
+    border-radius: 5px;
+
+}
+label{
+   display: block;
+    margin-top: 25px;
+    font-weight: bold;
+    color: darkblue;
+}
+#message{
+    padding: 85px;
+    width: 100px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+button:hover{
+    background: darkslateblue;
+}
+button{
+    background-color: #00fd3f;
+    margin-top: 10px;
+    padding: 12px 56px;
+    border: #00fd3f ;
+    border-radius: 20px;
+}
+
+input:focus, textarea:focus {
+    border-color: #4facfe;
+    outline: none;
+}
